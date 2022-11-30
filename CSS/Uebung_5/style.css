@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s ease;
+  font-family: bignoodletitling;
+  background-color: rgb(165, 165, 165);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div.img-area {
+  height: 370px;
+  width: 100%;
+  background: url("wemadeit.gif");
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 900px;
+  background-color: white;
+  box-shadow: 10px 20px 5px 0px rgb(0, 0, 0,0.33);
+}
+
+.form-area {
+  display: flex;
+  width: 850px;
+  height: 370px;
+}
+
+.right-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  height: 400px;
+}
+
+a {
+  color: white;
+  background-color: darkred;
+  border: none;
+  width: 15%;
+  border-radius: 8px;
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold; 
+  font-size: 2rem;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+textarea {
+  margin-bottom: 15px;
+}
