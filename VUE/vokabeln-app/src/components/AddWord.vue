@@ -21,7 +21,7 @@
             <button class="Zurück" @click="()=>{this.Lernen=false}">Zurück</button>
       </div>
     </div>
-    </template>
+</template>
     
     <script>
     import WordsList from './WordsList.vue';
