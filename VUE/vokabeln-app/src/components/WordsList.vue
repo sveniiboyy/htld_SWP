@@ -35,9 +35,9 @@
    
         for(let i = 0; i < newData.length; i++) {
         results.push({
-          name: newData[0][1].newWord,
-          translations: newData[0][1].newTranslation,
-          key: newData[0][0]
+          name: newData[i][1].newWord,
+          translations: newData[i][1].newTranslation,
+          key: newData[i][0]
         })
       }
       
